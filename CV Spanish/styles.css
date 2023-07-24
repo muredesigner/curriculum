@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #AFB2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 1500px;
+  background-color: white;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor .ladoIzquierdo {
+  background-color: #D9DFFF;
+  width: 450px;
+  padding: 0px;
+}
+
+#foto {
+  border-radius: 100%;
+  max-width: 300px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 30px 10px 30px 10px;
+  align-items: center;
+}
+.tituloPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloPrincipal h1 {
+  color: #505496;
+  margin-top: 30px;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+.tituloPrincipal h3 {
+  color: #505496;
+  margin-top: 5px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+.TextoPerfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505496;
+  padding: 10px;
+}
+#cualidadesTitulo {
+  color: white;
+  background-color: #6768AC;
+  margin-top: 60px;
+  font-size: 28px;
+  display: grid;
+  grid-template-columns: 200px;
+  padding: 10px 125px 10px 125px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.TablaDeQualidades {
+  font-size: 22px;
+  margin: 30px 20px 30px 20px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 40px 40px 40px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+#tituloIdiomas {
+  color: white;
+  background-color: #6768AC;
+  margin-top: 20px;
+  font-size: 28px;
+  display: grid;
+  grid-template-columns: 200px;
+  padding: 10px 125px 10px 125px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.idiomaTexto {
+  color: #505496;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+#contacto {
+  color: white;
+  background-color: #6768AC;
+  margin-top: 40px;
+  font-size: 28px;
+  display: grid;
+  grid-template-columns: 200px;
+  padding: 10px 125px 10px 125px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.infoContacto {
+  padding: 40px;
+  font-size: 28px;
+}
+.infoContacto ul li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+.infoContacto ul li .icono {
+  display: inline-block;
+  width: 50px;
+}
+a {
+  transition: color 0.3s ease;
+  color: #505496;
+  text-decoration: none;
+}
+a:hover {
+  color: #AA0787;
+}
+
+.contenedor .ladoDerecho {
+  background-color: white;
+  padding: 40px;
+}
+
+.descripcion {
+  color: #6768AC;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.descripcion h3 {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #6768AC;
+}
+.descripcion p {
+  color: #000000;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.estudios {
+  color: #6768AC;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.estudios h3 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #6768AC;
+}
+.estudios h5 {
+  display: grid;
+  grid-template-columns: 600px 150px;
+  padding: 30px 0 10px 0;
+}
+.estudios p {
+  color: #000000;
+  margin-top: 0px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+.trabajo {
+  color: #6768AC;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.trabajo h3 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #6768AC;
+}
+.trabajo h5 {
+  display: grid;
+  grid-template-columns: 600px 150px;
+  padding: 30px 0 10px 0;
+  letter-spacing: 0.5px;
+}
+
+.trabajo p {
+  color: #000000;
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+.habilidades {
+  color: #6768AC;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.habilidades h3 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #6768AC;
+}
+
+.habilidades div {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: repeat(3, 80px);
+  margin-top: 30px;
+  font-size: 22px;
+}
+.habilidades .porcentaje {
+  position: relative;
+  width: 80%;
+  height: 8px;
+  background-color: #C6C6C6;
+  display: grid;
+  margin-top: 10px;
+}
+.habilidades .porcentaje .barra {
+  position: relative;
+  width: 0%;
+  height: 8px;
+  background: #6768AC;
+  display: grid;
+}
+
+@media (max-width:600px) {
+  body {
+    flex-direction: column;
+  }
+  .contenedor {
+    grid-template-columns: 450px;
+  }
+  .contenedor .ladoIzquierdo {
+    flex-direction: column;
+} 
+  .estudios h5 {
+    grid-template-columns: auto;
+  }
+  .trabajo h5 {
+    grid-template-columns: auto;
+  }
+  .habilidades div {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, 80px)
+  }
+}
